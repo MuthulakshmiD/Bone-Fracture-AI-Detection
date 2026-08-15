@@ -20,7 +20,7 @@ The project trains an SVM classifier using a labeled X-ray dataset and allows us
 - 📁 Separate training and testing datasets
 
 ## 🏗️ Architecture
-
+```
 X-Ray Dataset
       |
       +-------------------+
@@ -79,20 +79,20 @@ Bone-Fracture/
     └── test/
         ├── fractured/
         └── not fractured/
-
+```
 The dataset is not included in this repository.
 
 Download the dataset separately and place it inside the project directory.
 
 ## 🧰 Technologies
-
+```
 Python
 OpenCV
 NumPy
 Matplotlib
 Scikit-learn
 Support Vector Machine (SVM)
-
+```
 ## 📊 Dataset
 
 This project uses a Bone Fracture Binary Classification X-ray dataset from Kaggle.
@@ -103,7 +103,7 @@ fractured
 not fractured
 
 Expected dataset structure:
-
+```
 Bone_Fracture_Binary_Classification/
 │
 ├── train/
@@ -113,7 +113,7 @@ Bone_Fracture_Binary_Classification/
 └── test/
     ├── fractured/
     └── not fractured/
-
+```
 ## ⚙️ Installation
 
 Make sure Python is installed.
