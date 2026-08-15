@@ -278,3 +278,14 @@ A clinically usable system would require appropriate medical validation, expert 
 This project is provided for educational and research purposes.
 
 If you use a third-party dataset, follow the dataset's original license and usage requirements.
+
+
+### Dataset
+```
+import kagglehub 
+ 
+# Download latest version 
+path = kagglehub.dataset_download("bmadushanirodrigo/fracture-multi-region-x-ray-data") 
+ 
+print("Path to dataset files:", path)
+```
